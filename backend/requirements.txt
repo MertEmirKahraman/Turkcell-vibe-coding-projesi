@@ -1,0 +1,9 @@
+fastapi[standard]
+sqlalchemy
+alembic
+pydantic-settings
+PyJWT
+pwdlib[argon2]
+qrcode[pil]
+pytest
+httpx
