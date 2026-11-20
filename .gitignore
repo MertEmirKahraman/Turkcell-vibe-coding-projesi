@@ -221,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Node.js / Frontend
+node_modules/
+
+# Gizli Anahtarlar ve Lokal Veritabanı
+.env
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
