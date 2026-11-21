@@ -1,1 +1,29 @@
-"""SQLAlchemy model package; domain models will be added in phase 3."""
+from backend.app.models.domain import (
+    Order,
+    OrderItem,
+    OrderStatus,
+    OTPVerification,
+    PaymentTransaction,
+    Product,
+    Shop,
+    Subscription,
+    SubscriptionPlan,
+    SubscriptionStatus,
+    User,
+    UserRole,
+)
+
+__all__ = [
+    "Order",
+    "OrderItem",
+    "OrderStatus",
+    "OTPVerification",
+    "PaymentTransaction",
+    "Product",
+    "Shop",
+    "Subscription",
+    "SubscriptionPlan",
+    "SubscriptionStatus",
+    "User",
+    "UserRole",
+]
